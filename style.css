@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('meditation.jpg') center/cover fixed no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsla(202, 92%, 50%, 0.911);
+}
+
+.container {
+    text-align: center;
+}
+
+#typewriterContainer {
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+#typewriterText {
+    display: inline-block;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    border-right: 2px solid #eb0909;
+    padding-right: 8px;
+}
+
